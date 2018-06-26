@@ -1,4 +1,3 @@
-@@ -1,56 +0,0 @@
 # Robust relationship between air quality and infant mortality in Africa
 
 
