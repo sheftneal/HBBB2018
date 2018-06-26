@@ -53,4 +53,4 @@ Users can run the following command to install the most recent versions of these
 
 ```R
 install.packages(c('classInt', 'fields', 'lfe', 'multcomp', 'maptools', 'plotrix', 'splines', 'tidyverse'), dependencies = T)
-```
+``` 
