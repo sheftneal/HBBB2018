@@ -4,7 +4,7 @@ data <- read_rds("data/inputs/analysis_data.rds")
   theta <- mean(data$child_die_age1)
   load("data/figure_data/Fig2_data.RData") #use main response curve plotted in Fig. 2a as comparison for all othe specs
   
-  
+   
   
   
 #Specify regression

@@ -1,4 +1,4 @@
-source("scripts/helper_functions.R")
+source("scripts/helper_functions.R") 
 
   data <- readr::read_rds("data/inputs/analysis_data.rds") %>% 
           dplyr::mutate(cluster_id = fe_loc) #cluster_id has been removed so hh remain anonymous but fe_loc is same grouping

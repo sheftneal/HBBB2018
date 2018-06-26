@@ -1,5 +1,5 @@
 source("scripts/helper_functions.R")
-data <- read_rds("data/inputs/analysis_data.rds")
+data <- read_rds("data/inputs/analysis_data.rds") 
 
 #Specify model components
 regression_fixed_effects <- "fe_loc + fe_season + fe_time"

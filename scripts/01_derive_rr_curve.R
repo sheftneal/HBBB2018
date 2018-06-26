@@ -165,7 +165,7 @@ for(b in 1:B){
 	  	
 
 		
-		save(RR_curve, get_RR, get_RR_lb90, get_RR_ub90, get_RR_lb95, get_RR_ub95, file = "data/RR_curve_HBBB2018_test.RData")
+		save(RR_curve, get_RR, get_RR_lb90, get_RR_ub90, get_RR_lb95, get_RR_ub95, file = "data/RR_curve_HBBB2018.RData")
 
 		
 		

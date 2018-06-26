@@ -1,5 +1,5 @@
 source("scripts/helper_functions.R") 
-load("data/figure_data/FigED6_data.RData")
+load("data/figure_data/FigED6_data.RData") 
 
 
 pdf("figures/raw/FigED6_raw.pdf",width = 7, height = 7, useDingbats = F)	

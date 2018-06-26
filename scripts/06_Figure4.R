@@ -2,7 +2,7 @@ source("scripts/helper_functions.R")
 load("data/figure_data/Fig4_data.RData") #objects loaded for plotting defined in "02_paper_calculations.R"
 load("data/inputs/map_boundaries.Rdata")
 
-
+ 
 
 ### panel a	###
   

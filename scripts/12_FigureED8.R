@@ -3,7 +3,7 @@
 #*************        Can remove Nboot and bootexpr arguments from felm() for quick results w/out CI.        *******    	
 #*******************************************************************************************************************
 
-source("scripts/helper_functions.R")
+source("scripts/helper_functions.R") 
 data <- read_rds("data/inputs/analysis_data.rds")
 
 pm25_support <- 0:70 #below range of estimated imr|pm2.5 is adjusted empirically to cover inner 99 percentile of observed pm2.5 concentrations

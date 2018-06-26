@@ -3,7 +3,7 @@
 #*************        Can remove Nboot and bootexpr arguments from lfe::felm() for quick results w/out CI.        *******    	
 #*******************************************************************************************************************    
 
-
+ 
 source("scripts/helper_functions.R")
 data <- read_rds("data/inputs/analysis_data.rds")
 

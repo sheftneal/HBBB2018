@@ -77,7 +77,7 @@ pdf("figures/raw/Fig1_raw.pdf",width =16, height = 6, family = "Helvetica", useD
 		text(x = -10, y = -45.5, labels = "Infant Mortality Rate (deaths per 1,000 births)",cex =1.5, pos = 4)
 	
 
-dev.off()	
+dev.off()	 
 
 	
 

@@ -11,7 +11,7 @@ load("data/RR_curve_HBBB2018.RData") #RR curve from our study
 
   
   
-  
+   
   pdf(file = "figures/raw/Fig3_raw.pdf",width = 8, height= 6)	
   
           #initialize plot
