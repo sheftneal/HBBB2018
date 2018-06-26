@@ -26,7 +26,7 @@ Script 01 derives the Relative Risk (RR) curve used in the paper. The RR curve i
 
 Script 02 includes the calculations cited in the paper.
 
-Scripts 03-06 generate the figures in the main text of the paper. The figures produced by these scripts will be slightly visually different than the published figures because post-processing was done in Adobe Illustrator. Published versions of the figures are available in figures/published.
+Scripts 03-06 generate the figures in the main text of the paper and writes them to figures/raw. The figures produced by these scripts will be slightly visually different than the published figures because post-processing was done in Adobe Illustrator. Published versions of the figures are available in figures/published.
 
 Scripts 07-12 generate the figures in the extended data section of the paper. 
 
