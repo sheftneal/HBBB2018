@@ -24,7 +24,7 @@ Users can manage replication through the R project "HBBB2018_replication.Rproj".
 
 Script 01 derives the Relative Risk (RR) curve used in the paper. The final RR curve is also available for download in CSV or RData versions in data/.
 
-Script 02 includes the calculations cited in the paper.
+Script 02 replicates the calculations cited in the paper.
 
 Scripts 03-06 generate the figures in the main text of the paper and writes them to figures/raw. The figures produced by these scripts will be slightly visually different than the published figures because post-processing was done in Adobe Illustrator. Published versions of the figures are available in figures/published.
 
@@ -32,6 +32,6 @@ Scripts 07-12 generate the figures in the extended data section of the paper.
 
 Script 13 estimates the results shown in Table ED1.
 
-Fig ED1 is not included in the repliaction materials because it's based on data from other studies. Fig ED2 is not included because it cannot be generated without including the geo-coordinates of DHS households which we cannot release due to the user agreement for DHS data.
+Fig ED1 is not included in the replication materials because it's based on data from other studies. Fig ED2 is not included because it cannot be generated without including the geo-coordinates of DHS households which we cannot release due to the user agreement for DHS data.
 
 Scripts 01, 04, and 12 take more than 1 hour each to run. Scripts 07 and 13 each take 1-2 minutes. All other scripts should run within a few seconds.
