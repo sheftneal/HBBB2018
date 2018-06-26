@@ -118,4 +118,3 @@ sample_n_groups = function(tbl, size, replace = FALSE, weight = NULL) {
   tbl %>% right_join(keep, by=grps) %>% group_by_(.dots = grps)
 }
 
-save(add.alpha, center, error.bar, get_hst_obj, plotHist, predict.felm, sample_n_groups, file  ="HBBB2018_replication.RData")
