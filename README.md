@@ -15,10 +15,12 @@ If you find a meaningful error in the code or have questions or suggestions, ple
 * **data/inputs**: data inputs for analysis.
 * **data/figure_data**: data inputs for figures.
 * **data/RR_curve_HBBB2018**: Relative Risk curve published in the paper. Includes CSV and RData versions.
-* **HBBB2018_replication.Rproj**: organizes the replication materials into an RStudio Project. Alternatively user can set working directory to HBBB2018 and run scripts independently.
+* **HBBB2018_replication.Rproj**: organizes the replication materials into an RStudio Project. 
 
 ## Instructions
 The repository is 115Mb.
+
+Users can manage replication by opening the R project "HBBB2018_repliaction.Rproj". Alternatively users can set working directory to HBBB2018 and run scripts independently.
 
 Script 01 derives the Relative Risk (RR) curve used in the paper. The RR curve is also available in CSV or RData version in data/.
 
