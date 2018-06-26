@@ -35,3 +35,22 @@ Script 13 estimates the results shown in Table ED1.
 Fig ED1 is not included in the replication materials because it's based on data from other studies. Fig ED2 is not included because it cannot be generated without including the geo-coordinates of DHS households which we cannot release due to the user agreement for DHS data.
 
 Scripts 01, 04, and 12 take more than 1 hour each to run. Scripts 07 and 13 each take 1-2 minutes. All other scripts should run within a few seconds.
+
+
+## R packages required
+* **classInt**
+* **fields**
+* **lfe**
+* **multcomp**
+* **maptools**
+* **plotrix**
+* **splines**
+* **tidyverse**
+
+Scripts were written in R 3.5.0.
+
+Users can run the following command to install the most recent versions of these packages:
+
+```R
+install.packages(c('classInt', 'fields', 'lfe', 'multcomp', 'maptools', 'plotrix', 'splines', 'tidyverse'))
+```
