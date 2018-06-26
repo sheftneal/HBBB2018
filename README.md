@@ -22,7 +22,7 @@ The repository is 115Mb.
 
 Users can manage replication through the R project "HBBB2018_replication.Rproj". Alternatively users can set working directory to HBBB2018 and run scripts independently.
 
-Script 01 derives the Relative Risk (RR) curve used in the paper. The RR curve is also available in CSV or RData version in data/.
+Script 01 derives the Relative Risk (RR) curve used in the paper. The final RR curve is also available for download in CSV or RData versions in data/.
 
 Script 02 includes the calculations cited in the paper.
 
