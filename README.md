@@ -5,7 +5,7 @@ Replication materials for _Heft-Neal, Burney, Bendavid & Burke (2018)_.
 
 The materials in this repository allow users to reproduce the figures, tables, and calculations appearing in the main text and extended data of the paper.
 
-If you find a meaningful error in the code or have questions or suggestions, please contact Sam Heft-Neal at sheftneal@stanford.edu.
+If you find meaningful errors in the code or have questions or suggestions, please contact Sam Heft-Neal at sheftneal@stanford.edu.
 
 ## Organization of repository
 
