@@ -52,5 +52,5 @@ Scripts were written in R 3.5.0.
 Users can run the following command to install the most recent versions of these packages:
 
 ```R
-install.packages(c('classInt', 'fields', 'lfe', 'multcomp', 'maptools', 'plotrix', 'splines', 'tidyverse'))
+install.packages(c('classInt', 'fields', 'lfe', 'multcomp', 'maptools', 'plotrix', 'splines', 'tidyverse'), dependencies = T)
 ```
