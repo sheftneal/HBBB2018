@@ -14,7 +14,7 @@ If you find meaningful errors in the code or have questions or suggestions, plea
 * **figures/raw**: scripts 03-12 will generate pdf figures in this directory.
 * **data/inputs**: data inputs for analysis.
 * **data/figure_data**: data inputs for figures.
-* **data/RR_curve_HBBB2018**: Relative Risk curve published in the paper. Includes CSV and RData versions.
+* **data/RR_curve_HBBB2018**: Relative Risk curve published in the paper. Includes CSV version.
 * **HBBB2018_replication.Rproj**: organizes the replication materials into an RStudio Project. 
 
 ## Instructions
@@ -26,7 +26,7 @@ Script 01 derives the Relative Risk (RR) curve used in the paper. The final RR c
 
 Script 02 replicates the calculations cited in the paper.
 
-Scripts 03-06 generate the figures in the main text of the paper and writes them to figures/raw. The figures produced by these scripts will be slightly visually different than the published figures because post-processing was done in Adobe Illustrator. Published versions of the figures are available in figures/published.
+Scripts 03-06 generate the figures in the main text of the paper and writes them to figures/raw. The figures produced by these scripts will be slightly visually different than the published figures because post-processing was done in Adobe Illustrator. Published versions of the figures are available in figures/clean.
 
 Scripts 07-12 generate the figures in the extended data section of the paper. 
 

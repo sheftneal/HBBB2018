@@ -4,7 +4,7 @@ source("scripts/helper_functions.R")
 #Load data
 ################################################################
    
-    cluster_birth_aves <- readr::read_rds("data/inputs/cluster_birth_averages.rds") %>% dplyr::mutate(cluster_id =fe_loc) #WorldPop number of births in location
+    cluster_birth_aves <- readr::read_rds("data/inputs/cluster_birth_averages.rds") %>% dplyr::mutate(cluster_id = fe_loc) 
     data <- readr::read_rds("data/inputs/analysis_data.rds") %>% 
             dplyr::mutate(  mother_age_at_birth_squared = mother_age_at_birth^2,
                             child_sex = as.numeric(as.factor(child_sex)),
@@ -19,7 +19,7 @@ source("scripts/helper_functions.R")
 # Code Equation (1) with f() specified as in Equation (2)
 ################################################################
 
-	#define main components of regression model (names refer to columns in "data" object)
+    	#define main components of regression model 
       	regression_controls <- "tmp_pre + tmp_post + rain_pre + rain_post + child_sex + child_birth_order + child_multi_birth + poly(mother_age_at_birth, 2, raw=T) + mother_education + hh_clean_cook_fuel + hh_nightlights"
       	regression_fixed_effects <- "fe_loc + fe_season"
       	regression_var_cluster <- "fe_loc"
